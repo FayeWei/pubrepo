@@ -41,8 +41,8 @@ package 'epel-release' do
 end
 
 # scl-util
-filename = 'scl-utils-20120927-11.el6.centos.alt.x86_64.rpm'
-remote_uri = 'http://mirror.centos.org/centos/6/SCL/x86_64/scl-utils/scl-utils-20120927-11.el6.centos.alt.x86_64.rpm'
+filename = 'scl-utils-20120927-27.el6_6.x86_64.rpm'
+remote_uri = 'http://rpmfind.net/linux/centos/6.9/os/x86_64/Packages/scl-utils-20120927-27.el6_6.x86_64.rpm'
 
 remote_file "/tmp/#{filename}" do
   source "#{remote_uri}"
